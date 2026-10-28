@@ -403,3 +403,4 @@ subdir-$(CONFIG_FORTIFY_SOURCE) += test_fortify
 obj-$(CONFIG_KASAN_HW_TAGS) += mte_smoke.o
 obj-$(CONFIG_KASAN_HW_TAGS) += pte_smoke.o
 obj-$(CONFIG_KASAN_HW_TAGS) += alias_smoke.o
+obj-$(CONFIG_KASAN_HW_TAGS) += mte_alias_smoke.o
