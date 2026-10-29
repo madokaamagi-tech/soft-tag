@@ -128,7 +128,7 @@ static int __init mte_alias_init(void)
 			goto out;
 		}
 
-		pr_info("mte alias: object=%u tag=%u A/B mismatching access OK\n", 
+		pr_info("mte alias: object=%u tag=%u A/B matching access OK\n",
 				i, mte_get_mem_tag(b) & 0xf);
 	}
 
